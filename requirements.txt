@@ -1,5 +1,8 @@
 numpy
 scipy
 matplotlib
+cython
+pandas
+openpyxl
 phasepy
 SGTPy
