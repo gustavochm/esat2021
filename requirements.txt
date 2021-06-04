@@ -2,6 +2,7 @@ numpy
 scipy
 matplotlib
 cython
+Cython
 pandas
 openpyxl
 phasepy
