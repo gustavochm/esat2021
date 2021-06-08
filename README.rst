@@ -19,10 +19,6 @@ Departamento de Ingeniería Química, Universidad De Concepción, Concepción, C
 Installation
 ------------
 
-Get the latest version of SGTPy from
-https://pypi.python.org/pypi/SGTPy/
-
-
 If you have an installation of Python with pip, simple install it with:
 
     $ pip install phasepy
