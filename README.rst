@@ -9,12 +9,6 @@ Departamento de Ingeniería Química, Universidad De Concepción, Concepción, C
 
 
 
-.. image:: https://mybinder.org/badge_logo.svg
-   :target: https://mybinder.org/v2/gh/gustavochm/esat2021/HEAD
-
-
-
-
 .. image:: phasepy-sgtpy.png
    :width: 10pt
 
