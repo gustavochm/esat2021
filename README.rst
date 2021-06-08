@@ -10,7 +10,7 @@ Departamento de Ingeniería Química, Universidad De Concepción, Concepción, C
 
 
 .. image:: phasepy-sgtpy.png
-   :width: 10pt
+   :width: 20pt
 
 
 
