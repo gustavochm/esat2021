@@ -10,7 +10,7 @@ Departamento de Ingeniería Química, Universidad De Concepción, Concepción, C
 
 
 .. image:: phasepy-sgtpy.png
-   :width: 20pt
+   :width: 10pt
 
 
 
@@ -97,7 +97,7 @@ the mixture using SGT.
       >>> #density vector of each phase
       >>> rhox = x/vl
       >>> rhoy = y/vv
-      >>> bij = 0.05719272059410664
+      >>> bij = 0.06486106024034907
       >>> beta = np.array([[0, bij], [bij, 0]])
       >>> eos.beta_sgt(beta)
       >>> #solving BVP of SGT with 25 colocation points
@@ -105,7 +105,7 @@ the mixture using SGT.
 
 For more examples, please have a look at the Jupyter Notebook files
 located in this repo. Don't forget to try the examples located in
-` phasepy-examples <https://github.com/gustavochm/esat2021/tree/master/phasepy-examples>`_ folder
+`phasepy-examples <https://github.com/gustavochm/esat2021/tree/master/phasepy-examples>`_ folder
 and of the sources or `SGTPy-examples <https://github.com/gustavochm/esat2021/tree/master/SGTPy-examples>`_ folder.
 
 
