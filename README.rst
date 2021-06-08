@@ -1,4 +1,4 @@
-=============================================================================
+============================================================================
 59 – Phasepy: A Python Based Framework For Fluid Phase Equilibria Computation
 =============================================================================
 
@@ -7,6 +7,10 @@
 Gustavo Chaparro Maldonado, Andrés Mejía.
 Departamento de Ingeniería Química, Universidad De Concepción, Concepción, Chile
 
+
+
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/gustavochm/esat2021/HEAD
 
 
 .. image:: phasepy-sgtpy.png
