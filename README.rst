@@ -2,6 +2,11 @@
 59 – Phasepy: A Python Based Framework For Fluid Phase Equilibria Computation
 =============================================================================
 
+
+.. image:: https://mybinder.org/badge_logo.svg
+   :target: https://mybinder.org/v2/gh/gustavochm/esat2021/HEAD
+
+
 **ESAT 2021**
 
 Gustavo Chaparro Maldonado, Andrés Mejía.
@@ -10,7 +15,7 @@ Departamento de Ingeniería Química, Universidad De Concepción, Concepción, C
 
 
 .. image:: phasepy-sgtpy.png
-   :width: 20pt
+   :width: 10pt
 
 
 
