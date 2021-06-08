@@ -108,7 +108,7 @@ the mixture using SGT.
 For more examples, please have a look at the Jupyter Notebook files
 located in this repo. Don't forget to try the examples located in
 `phasepy-examples <https://github.com/gustavochm/esat2021/tree/master/phasepy-examples>`_ folder
-and of the sources or `SGTPy-examples <https://github.com/gustavochm/esat2021/tree/master/SGTPy-examples>`_ folder.
+and in the `SGTPy-examples <https://github.com/gustavochm/esat2021/tree/master/SGTPy-examples>`_ folder.
 
 
 
