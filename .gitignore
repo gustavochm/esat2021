@@ -1,19 +1,10 @@
 #Folders#
 ########
 
-build/
-dist/
 
-docs/build/
-SGTPy.egg-info/
-SGTPy/__pycache__/
-SGTPy/mixtures/__pycache__/
-SGTPy/pure/__pycache__/
-SGTPy/equilibrium/__pycache__/
-SGTPy/sgt/__pycache__/
-SGTPy/src/build/
 
-examples/.ipynb_checkpoints/
+phasepy-examples/.ipynb_checkpoints/
+SGTPy-examples/.ipynb_checkpoints/
 
 
 #Python Cache#
