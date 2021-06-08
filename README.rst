@@ -10,12 +10,9 @@
 **ESAT 2021**
 
 Gustavo Chaparro Maldonado, Andrés Mejía.
+
 Departamento de Ingeniería Química, Universidad De Concepción, Concepción, Chile
 
-
-
-.. image:: phasepy-sgtpy.png
-   :width: 10pt
 
 
 
