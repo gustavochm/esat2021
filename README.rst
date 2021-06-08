@@ -10,7 +10,7 @@ Departamento de Ingeniería Química, Universidad De Concepción, Concepción, C
 
 
 .. image:: phasepy-sgtpy.png
-   :width: 40pt
+   :width: 20pt
 
 
 
@@ -53,9 +53,7 @@ Getting Started
 Phasepy and SGTPy easily allows you to perform phase equilibria and interfacial
 properties calculations. Phasepy includes on Gibbs excess models and cubic equations
 of state (EoS) while SGTPy includes SAFT-VR-Mie EoS.
-
-For both packages, first components are defined with their molecular parameters,
- then a mixture can be created with them.
+For both packages, first components are defined with their molecular parameters, then a mixture can be created with them.
 
 .. code-block:: python
 
@@ -107,8 +105,8 @@ the mixture using SGT.
 
 For more examples, please have a look at the Jupyter Notebook files
 located in this repo. Don't forget to try the examples located in
-`*phasepy-examples*<https://github.com/gustavochm/esat2021/tree/master/phasepy-examples>`_ folder
-and of the sources or `*SGTPy-examples*<https://github.com/gustavochm/esat2021/tree/master/SGTPy-examples>`_ folder.
+` phasepy-examples <https://github.com/gustavochm/esat2021/tree/master/phasepy-examples>`_ folder
+and of the sources or `SGTPy-examples <https://github.com/gustavochm/esat2021/tree/master/SGTPy-examples>`_ folder.
 
 
 
