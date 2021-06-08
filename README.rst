@@ -9,7 +9,7 @@ Departamento de Ingeniería Química, Universidad De Concepción, Concepción, C
 
 
 
-.. image:: phasepy-sgtpy.jpg
+.. image:: phasepy-sgtpy.png
    :width: 40pt
 
 
@@ -24,11 +24,13 @@ https://pypi.python.org/pypi/SGTPy/
 If you have an installation of Python with pip, simple install it with:
 
     $ pip install phasepy
+
     $ pip install SGTPy
 
 To get the git version, run:
 
     $ git clone https://github.com/gustavochm/phasepy
+
     $ git clone https://github.com/gustavochm/SGTPy
 
 
@@ -48,9 +50,12 @@ SGTPy's documentation is available on the web (under development):
 Getting Started
 ---------------
 
-SGTPy easily allows you to perform phase equilibria and interfacial properties
-calculations using SAFT-VR-Mie EoS. First, components are defined with their
-molecular parameters, then a mixture can be created with them.
+Phasepy and SGTPy easily allows you to perform phase equilibria and interfacial
+properties calculations. Phasepy includes on Gibbs excess models and cubic equations
+of state (EoS) while SGTPy includes SAFT-VR-Mie EoS.
+
+For both packages, first components are defined with their molecular parameters,
+ then a mixture can be created with them.
 
 .. code-block:: python
 
@@ -98,11 +103,12 @@ the mixture using SGT.
       >>> beta = np.array([[0, bij], [bij, 0]])
       >>> eos.beta_sgt(beta)
       >>> #solving BVP of SGT with 25 colocation points
-      >>> solsgt = sgt_mix(rhoy, rhox, T, P, eos, n = 25, full_output = True)
+      >>> solsgt = sgt_mix(rhoy, rhox, T, P, eos, n=25, full_output=True)
 
 For more examples, please have a look at the Jupyter Notebook files
-located in the *examples* folder of the sources or
-`view examples in github <https://github.com/gustavochm/esat2021>`_.
+located in this repo. Don't forget to try the examples located in
+`*phasepy-examples*<https://github.com/gustavochm/esat2021/tree/master/phasepy-examples>`_ folder
+and of the sources or `*SGTPy-examples*<https://github.com/gustavochm/esat2021/tree/master/SGTPy-examples>`_ folder.
 
 
 
@@ -111,7 +117,7 @@ License information
 
 Phasepy is part of the article *Phasepy: A Python based framework for fluid phase
 equilibria and interfacial properties computation* by Gustavo Chaparro and Andrés Mejía,
-J Comput Chem. 2020; 41, 29, 2504-2526. `https://doi.org/10.1002/jcc.26405 <https://doi.org/10.1002/jcc.26405>`_.
+J Comput Chem. 2020, 41, 29, 2504-2526. `https://doi.org/10.1002/jcc.26405 <https://doi.org/10.1002/jcc.26405>`_.
 
 SGTPy is part of the article *SGTPy: A Python open-source code for
 calculating the interfacial properties of fluids based on the Square Gradient
