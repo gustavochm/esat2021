@@ -5,4 +5,4 @@ cython
 pandas
 openpyxl
 phasepy
-SGTPy
+SGTPy>=0.0.11
