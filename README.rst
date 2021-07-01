@@ -1,25 +1,23 @@
+**ESAT 2021 - July 2021**
 =============================================================================
 59 – Phasepy: A Python Based Framework For Fluid Phase Equilibria Computation
 =============================================================================
 
 
-.. image:: https://mybinder.org/badge_logo.svg
-   :target: https://mybinder.org/v2/gh/gustavochm/esat2021/HEAD
-
-
-**ESAT 2021**
-
 Gustavo Chaparro Maldonado, Andrés Mejía.
 
 Departamento de Ingeniería Química, Universidad De Concepción, Concepción, Chile
 
+Feel free to try the Jupyter Notebooks interactively with MyBinder:
 
+.. image:: https://mybinder.org/badge_logo.svg
+   :target: https://mybinder.org/v2/gh/gustavochm/esat2021/HEAD
 
 
 Installation
 ------------
 
-If you have an installation of Python with pip, simple install it with:
+If you have an installation of Python with pip, simply install it with:
 
     $ pip install phasepy
 
@@ -33,7 +31,7 @@ To get the git version, run:
 
 
 Documentation
--------------
+----------------
 
 Phasepy's documentation is available on the web:
 
@@ -48,10 +46,10 @@ SGTPy's documentation is available on the web (under development):
 Getting Started
 ---------------
 
-Phasepy and SGTPy easily allows you to perform phase equilibria and interfacial
-properties calculations. Phasepy includes on Gibbs excess models and cubic equations
+Phasepy and SGTPy easily allow you to perform phase equilibria and interfacial
+properties calculations. Phasepy includes Gibbs excess models and cubic equations
 of state (EoS) while SGTPy includes SAFT-VR-Mie EoS.
-For both packages, first components are defined with their molecular parameters, then a mixture can be created with them.
+For both packages, first, the components are defined with their molecular parameters, then a mixture can be created with them.
 
 .. code-block:: python
 
